@@ -14,4 +14,6 @@ def import_or_install(package):
 if __name__ == "__main__":
    subprocess.check_call([sys.executable, "-m", "pip", "install", "pandas"])
    subprocess.check_call([sys.executable, "-m", "pip", "install", "numpy"])
+   subprocess.check_call([sys.executable, "-m", "pip", "install", "imutils"])
+   
    
